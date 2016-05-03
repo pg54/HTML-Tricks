@@ -1,0 +1,5 @@
+.box {position: relative;width: 500px;height: 200px;overflow: hidden;background: red;-webkit-transition: all .4s ease-in-out;}
+.box .box-img {display: block;width: 100%;padding: 0;margin: 0;-webkit-transition: all .4s ease-in-out;}
+.box:hover .box-img {position: absolute;-webkit-transform: scale(1.1);opacity: .6;}
+.box .box-caption {color: yellow;padding: 0;margin: 0;backface-visibility: hidden;transition: all .4s ease-in-out;overflow: hidden;}
+
